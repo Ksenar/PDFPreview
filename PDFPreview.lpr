@@ -7,15 +7,13 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, FrmMainPDFPreview, lz_printers, PDFDoc,
-  libmupdf18, WinPrinterUtils;
+  Forms, FrmMainPDFPreview, PDFDoc,libmupdf18 ;
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TfMainPdfPreview, fMainPdfPreview);
-
+ Application.CreateForm(TfMainPdfPreview, fMainPdfPreview);
   Application.ShowHint := True;
   Application.HintHidePause := 20000;
   Application.Run;

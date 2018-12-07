@@ -155,7 +155,7 @@ begin
   edPrintPages.Font.Height := 14;
   {$ENDIF}
 
- AssignListOfPrinters(cbChoosePrinter, cbChoosePrinter.Text);
+// AssignListOfPrinters(cbChoosePrinter, cbChoosePrinter.Text);
  PostMessage(Self.Handle, LM_USER_OPEN_AT_START, 0,0);
 end;
 

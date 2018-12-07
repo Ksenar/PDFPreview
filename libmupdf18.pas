@@ -76,6 +76,7 @@ const
   // for Linux 64
   // externallibs\$(TargetCPU)_$(TargetOS);C:\codetyphon\binLibraries\x86_64-linux-qt4\;C:\codetyphon\binLibraries\x86_64-linux\
 
+ /// {$L /home/xenar/project_local/PDFPreview/externallibs/x86_64_linux/libjpeg.so.9.3.0}
   {$linklib libcurl.a}
   {$linklib libjbig2dec.a}
   {$linklib libjpeg.a}
@@ -84,6 +85,7 @@ const
   {$linklib libopenjpeg.a}
   {$linklib libmupdf.a}
   {$linklib libfreetype.a}
+  {$linklib libpng.a}
   {$linklib libz.a}
 {$IFEND}
 
