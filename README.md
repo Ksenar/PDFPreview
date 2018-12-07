@@ -9,3 +9,6 @@ Example project show the use of library with common preview functions. You are e
 Initial idea for this FPC project is done by Blestan Tabakov. His version use one of first version of libmupdf library. 
 Problems:
 There are lot of changes in cdecl function calls between versions. Big change is between version 1.6 and 1.7. Almost every call in version 1.7 is changed in way that first param is CONTEXT variable. Some functions are changed in way that they have different params or param types.
+
+
+Так как автор похоже забил на данный проект сделал форк и сделал работоспособным на linux x64
